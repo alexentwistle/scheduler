@@ -16,6 +16,7 @@ def job():
 # schedule.every().minute.at(":17").do(job)
 
 
+# Uncomment the below for a job that runs every ten minutes.
 """
 schedule.every(10).minutes.do(job)
 
