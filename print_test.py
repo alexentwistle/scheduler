@@ -4,7 +4,7 @@ import time
 def job():
     """Show that scheduling is working, and also how to write a docstring."""
 
-    print("I'm working...")
+    print("I'm working continuously...")
 
 
 # schedule.every(10).minutes.do(job)
